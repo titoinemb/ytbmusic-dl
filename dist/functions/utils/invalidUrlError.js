@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=()=>console.log("Invalid URL, command example: npx ytbmusic-dl URL");

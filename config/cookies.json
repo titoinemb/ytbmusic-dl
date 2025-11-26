@@ -1,0 +1,100 @@
+[
+  {
+    "name": "YSC",
+    "value": "OzXN6CMmHVE",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://youtube.com",
+    "_crHasCrossSiteAncestor": false
+  },
+  {
+    "name": "SOCS",
+    "value": "CAISNQgREitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjUwOTE2LjA3X3AwGgJlbiACGgYIgLqyxgY",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1792383637.514785,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "VISITOR_INFO1_LIVE",
+    "value": "ANhuXDCDN9E",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1773807637.515005,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "VISITOR_INFO1_LIVE",
+    "value": "ANhuXDCDN9E",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1773807654.106031,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://youtube.com",
+    "_crHasCrossSiteAncestor": false
+  },
+  {
+    "name": "VISITOR_PRIVACY_METADATA",
+    "value": "CgJBVBIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiBg",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1773807654.106227,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://youtube.com",
+    "_crHasCrossSiteAncestor": false
+  },
+  {
+    "name": "_gcl_au",
+    "value": "1.1.1220819460.1758255639",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1766031639,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "PREF",
+    "value": "repeat=NONE&autoplay=true",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1792815647.533828,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "__Secure-ROLLOUT_TOKEN",
+    "value": "COnTwda9qaSwfRD5h9fV_OOPAxjF2ILd_OOPAw%3D%3D",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1773807653.173846,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://youtube.com",
+    "_crHasCrossSiteAncestor": false
+  },
+  {
+    "name": "test_cookie",
+    "value": "CheckForPermission",
+    "domain": ".doubleclick.net",
+    "path": "/",
+    "expires": 1758256555.055143,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  }
+]
