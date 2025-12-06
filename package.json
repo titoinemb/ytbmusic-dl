@@ -1,0 +1,55 @@
+{
+  "name": "ytbmusic-dl",
+  "version": "1.0.0",
+  "description": "The best CLI program for download music in youtube music",
+  "keywords": [
+    "ytbmusic",
+    "ytb",
+    "music",
+    "dl",
+    "cli",
+    "npm",
+    "package",
+    "global"
+  ],
+  "homepage": "https://github.com/titoinemb/ytbmusic-dl#readme",
+  "bugs": {
+    "url": "https://github.com/titoinemb/ytbmusic-dl/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titoinemb/ytbmusic-dl.git"
+  },
+  "license": "MIT",
+  "author": "titoinemb",
+  "type": "commonjs",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "jest ./tests/__test__.test.ts",
+    "start": "node ./dist/main.js",
+    "dev": "ts-node ./src/main.ts",
+    "build": "tsc && find ./dist -type f -name '*.js' -exec sh -c 'terser \"$1\" --compress --mangle --output \"${1%.js}.js\"' _ {} \\;",
+    "link": "npm link",
+    "unlink": "npm unlink -g ytbmusic-dl"
+  },
+  "bin": {
+    "ytbmusic-dl": "./dist/main.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.10.1",
+    "jest": "^30.2.0",
+    "terser": "^5.44.1",
+    "ts-jest": "^29.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
+    "node-id3": "^0.2.9",
+    "playwright": "^1.57.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

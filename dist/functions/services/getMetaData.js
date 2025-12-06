@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=async t=>{let e=await fetch(`https://www.youtube.com/oembed?format=json&url=https://music.youtube.com/watch?v=${t}`);return e.ok?await e.json():console.log(`Error: ${e.statusText}`)};

@@ -1,0 +1,1 @@
+export default () => console.log("Invalid URL, command example: npx ytbmusic-dl URL");
