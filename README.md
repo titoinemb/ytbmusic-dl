@@ -1,6 +1,6 @@
 # ytbmusic-dl
 
-The best CLI program for download music in youtube music
+The best CLI program for downloading music from YouTube Music
 
 ## Prerequisites
 - **nodeJS & npm**: Install [nodeJS](https://nodejs.org/en/download).
